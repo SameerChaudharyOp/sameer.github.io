@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Poppins:wght@200;300;400&family=Roboto+Condensed:ital@1&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,300&family=Oswald:wght@200&family=Poppins:wght@200;300;400&family=Roboto+Condensed:ital@1&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.background-image{
+    background-image: url(images/background.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 300px;
+    
+}
+
+
+.sidebar{
+   /* background-color: pink; */
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    transform: transform 0.3s ease-in; 
+}
+.tp{
+    display: inline-block;
+    padding-right: 15px;
+
+    
+}
+.sidebar nav{
+    
+    padding: 50px;
+}
+    
+
+.sidebar nav li{
+    
+    
+    list-style: none;
+    font-size: 30px;
+    padding-top: 35px;
+    
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+.sidebar h1{
+    font-size: 30px;
+    color: blue;
+}
+
+
+.main{
+   background-color: powderblue;
+    width: 87vw;
+    background: url(images/bk\ pic.JPEG);
+ }
+
+.container{
+    display: flex;
+    
+} 
+
+.infoContainer{
+    
+    height: 55vh;
+    width: 30vw;
+    margin: 144px auto;
+    margin-left: 300px;
+    display: flex;
+    justify-content: space-around ;
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+.hello{
+    font-size: 60px;
+    color: aqua;
+}
+.name{
+    font-size: 55px ;
+    font-weight: bold;
+    color: lightskyblue;
+
+}
+.about{
+    font-size: 45px;
+    color: aqua;
+}
+.moreabout{
+    font-size: 27px;
+    margin-top: 18px;
+    color: aqua;
+}
+
+.btn1{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: black;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    
+}
+.btn2{
+     padding: 9px 14px;
+    border-radius: 22px;
+    color: black;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 20px;
+    cursor: pointer;
+    
+}
+.btn3{
+     padding: 6px 10px;
+    border-radius: 20px;
+    color: black;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 15px;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-bottom: 10px;
+   
+
+}
+
+.btn-sn{
+     padding: 9px 10px;
+    border-radius: 15px;
+    color: black;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+
+.btn1:hover{
+    background-color: white;
+    color: dodgerblue;
+}
+.btn2:hover{
+     background-color: white;
+    color: dodgerblue;
+}
+
+
+/*
+.devPic img{
+   width: 350px;
+   padding-top: 33px;
+
+} */
+
+.contactform h1{
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-bottom: 0;
+    
+
+}
+
+ .input-box {
+        font-size: 20px;
+        padding-top: 5px;
+        padding-bottom: 12px;
+        margin-bottom: 30px;
+        border: 15;
+        border-radius: 8px;
+        border-bottom: 1px solid black;
+        width: 100%;
+      }
+      #input-field {
+        padding-top: 80px;
+        padding-bottom: 40px;
+        padding-left: 80px;
+        padding-right: 80px;
+      }
+      #button {
+        background-color: #0056ff;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 24px;
+        padding-right: 24px;
+        font-size: 18px;
+        color: white;
+        border: none;
+        cursor: pointer;
+      }
+
+      .form-text{
+        font-size: 25px;
+      }
+
+      .blogcontainer h1{
+
+         font-family: 'Poppins', sans-serif;
+         margin: 23px;
+        
+
+      }
+
+      .blogitems{
+        margin: 20px;
+        font-family: 'Poppins', sans-serif;
+        margin-left: 20px;
+        margin-bottom: 10px;
+        
+      }
+      
+      .blogitems p{
+        font-family: 'Roboto Condensed', sans-serif;
+
+      }
+
+    .intro h1{
+        margin: 12px;
+        font-size: 30px ;
+    }
+    
+    .intro p{
+        margin: 12px;
+        font-size: 20px;
+    }
+
+.skillcontainer{
+    padding: 12px;
+
+}
+
+.skillitems{
+    display: flex;
+    align-items: center;
+
+
+}
+.skill{
+        width: 265px;
+        height: 10px;
+        background-color: red;
+        border: 2px solid black;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        
+    }
+.t1{
+    width: 300px;
+    background-color: blueviolet;
+
+}
+.t2{
+    width:265px;
+    background-color: blue;
+}
+.t3{
+    width: 150px;
+    background-color: aqua;
+}
+.t4{
+    width: 70px;
+    background-color: aquamarine;
+}
+.sidebarGo{
+    transform: translate(-443px 0px);
+    position: absolute;
+   }
+
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px; 
+}
+
+.cross{
+    margin-left: 184px;
+}
+
+
+/* For mobile phones: */
+
+@media only screen and (max-width: 768px) {
+    .sidebar h1{
+        font-size: 16px;
+    }
+   .sidebar nav li{
+    list-style: none;
+    font-size: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.sidebar nav{
+    
+    padding: 15px;
+}
+.main{
+   background-color: powderblue;
+    width: 100%;
+}
+.container{
+    display: flex;
+    
+}
+.infoContainer{
+    
+    height: 35vh;
+    width: 50vw;
+    margin: 144px auto;
+    display: block;
+    justify-content: space-around;
+}
+.devInfo{
+    display: flex;
+    justify-content: space-around;
+   
+
+}
+
+.hello{
+    margin-top: -90px;
+    margin-left: -30px;
+    font-size: 30px;
+}
+.name{
+    
+    margin-left: -30px;
+    font-size: 35px;
+}
+.about{
+    margin-left: -30px;
+    font-size: 30px;
+}
+.moreabout{
+    margin-left: -30px;
+    font-size: 20px;
+}
+
+ .devPic img{
+    margin-top: -20px;
+    margin-bottom: 10px;
+    display: block;
+    width: 160px;
+    height: auto;
+    justify-content: center;
+    
+
+ }
+ .btn1{
+    padding: 4px 8px;
+    border-radius: 10px;
+    font-size: 10px;
+    margin-top: 10px; 
+}
+.btn2{
+    padding: 4px 8px;
+    border-radius: 10px;
+    font-size: 10px;
+    margin-top: 10px; 
+}
+
+
+  }
+  @media only screen and (max-width: 641px) {
+
+    .devPic img{
+    margin-top: -40px;
+    margin-bottom: 10px;
+    display: block;
+    width: 130px;
+    height: 180px;
+    justify-content: center;
+    
+
+ }
+.btn1{
+    padding: 3px 7px;
+    border-radius: 8px;
+    font-size: 9px;
+    margin-top: 9px; 
+}
+.btn2{
+    padding: 3px 7px;
+    border-radius: 8px;
+    font-size: 9px;
+    margin-top: 9px; 
+}
+  }

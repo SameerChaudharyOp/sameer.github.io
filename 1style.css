@@ -1,0 +1,73 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ text-decoration: none;
+}
+/*
+body {
+    background-color: lightblue;
+} */
+
+.max-widt{
+    max-width: 2000px;
+    padding: 0 70px;
+    margin: auto;
+}
+
+
+/* Styling Navbar */
+
+.navbar{
+   position: fixed;
+   width: 100%;
+   padding: 30px 0;
+   background: crimson;
+   font-family: 'ubuntu', sans-serif;
+}
+.navbar .sticky{
+    padding: 30px 0;
+   background: crimson;
+
+}
+.navbar .max-widt{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+
+.navbar .logo a{
+
+    color: whitesmoke;
+    font-size: 35px;
+    font-weight: 600;
+}
+.navbar .logo a span{
+     color: darkgray;
+}
+.navbar .menu li {
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar .menu li a{
+  color: white;
+  font-size: 28px;
+  font-weight: 400;
+  margin-left: 25px;
+  transition: color 0.3s ease;
+}
+
+.navbar .menu li a:hover{
+    color: crimson;
+
+}
+
+/* home section styling */
+.home{
+    display: flex;
+    background: url(images/bk\ pic.JPEG) ;
+    height: 98vh;
+    
+}
